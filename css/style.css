@@ -1,0 +1,23 @@
+
+input[type=text]{
+    padding:6px;font-size:18px; 
+    border:2px solid #ccc;
+    background: white;
+    padding: 5px;
+    width:280px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-transition: 0.2s ease-in-out all;
+    -moz-transition: 0.2s ease-in-out all;
+    -ms-transition: 0.2s ease-in-out all;
+    -o-transition: 0.2s ease-in-out all;
+    transition: 0.2s ease-in-out all;
+}
+
+input[type=text]:focus{
+    border-color:green;
+    -moz-box-shadow: 6px 6px 12px #999;
+    -webkit-box-shadow: 6px 6px 12px #999;
+    box-shadow: 6px 6px 12px #999;
+}
+
